@@ -1,0 +1,54 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- 가상환경 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- 테스트 / 커버리지 ----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# ---- 환경변수 / 비밀정보 ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- IDE / 에디터 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- 로그 / 임시파일 ----
+*.log
+*.tmp
+db.sqlite3
+
+# ---- WSL / Windows 다운로드 표식 ----
+*:Zone.Identifier
